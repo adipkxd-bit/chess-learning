@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>bishop</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="infoPage">
+<table width=100% border=0>
+<TR>
+<TD><h1>bishop</h1>
+<img src="images/bishop.png" class="pieceImage">
+<p>
+<font size="5"<i><b>قطعة الفيل هي قطعة مهمة في لعبة الشطرنج، وتتميز بحركتها القطرية السريعة</b></i></font></TD>
+<TD><font size="7"><B><U>:حركته<U><B></font>
+<UL>
+<LI><font size="6"> يتحرك بشكل قطري فقط (مائل)</font>
+<LI><font size="6"> يمكنه التحرك أي عدد من المربعات طالما الطريق خالٍ</font>
+<LI><font size="6"> كل فيل يبقى دائمًا على نفس لون مربعه</font>
+<LI><font size="6">لذلك كل لاعب لديه فيلان يكملان بعضهما </font></TD>
+</p>
+</TR>
+<TR>
+<TD><button onclick="backMenu()">
+Back
+</button></TD>
+<TD><button onclick="window.location.href='bishop-game.html'">
+
+Try the bishop Game 🎮
+
+</button></TD>
+</TR>
+</Table>
+<script>
+
+new Audio("sounds/bishop.mp3").play();
+
+
+function backMenu(){
+
+window.location.href="menu.html";
+
+}
+
+</script>
+
+</body>
+
+</html>

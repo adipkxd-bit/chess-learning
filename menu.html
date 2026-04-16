@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Choose Piece</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="menuPage">
+
+<h1>Choose a Chess Piece ♟️</h1>
+
+
+<div class="container">
+
+
+<img src="images/king.png" onclick="king()">
+
+<img src="images/queen.png" onclick="queen()">
+
+<img src="images/bishop.png" onclick="bishop()">
+
+<img src="images/knight.png" onclick="knight()">
+
+<img src="images/rook.png" onclick="rook()">
+
+<img src="images/pawn.png" onclick="pawn()">
+
+
+</div>
+
+
+<script>
+
+
+function king(){
+
+new Audio("sounds/king.mp3").play();
+
+setTimeout(()=>{
+
+window.location.href="king.html";
+
+},800);
+
+}
+
+
+function queen(){
+
+new Audio("sounds/queen.mp3").play();
+
+setTimeout(()=>{
+
+window.location.href="queen.html";
+
+},800);
+
+}
+
+
+function bishop(){
+
+new Audio("sounds/bishop.mp3").play();
+
+setTimeout(()=>{
+
+window.location.href="bishop.html";
+
+},800);
+
+}
+
+
+function knight(){
+
+new Audio("sounds/knight.mp3").play();
+
+setTimeout(()=>{
+
+window.location.href="knight.html";
+
+},800);
+
+}
+
+
+function rook(){
+
+new Audio("sounds/rook.mp3").play();
+
+setTimeout(()=>{
+
+window.location.href="rook.html";
+
+},800);
+
+}
+
+
+function pawn(){
+
+new Audio("sounds/pawn.mp3").play();
+
+setTimeout(()=>{
+
+window.location.href="pawn.html";
+
+},800);
+
+}
+
+
+</script>
+
+</body>
+
+</html>

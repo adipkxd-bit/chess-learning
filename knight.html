@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Knight</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="infoPage">
+<table width=100% border=0>
+<TR>
+<TD><h1>knight</h1>
+<img src="images/knight.png" class="pieceImage">
+<p>
+<font size="5"><i><b>قطعة الحصان هي واحدة من أكثر القطع تميزًا في لعبة الشطرنج بسبب طريقتها المختلفة في الحركة</b></i></font><br></TD>
+<TD><font size="7"><B><U>:حركته<U><B></font>
+<UL>
+<LI><font size="6">يتحرك على شكل حرف L</font>
+<LI><font size="6">الحصان هو القطعة الوحيدة التي يمكنها القفز فوق القطع</font>
+<LI><font size="6">الحصان يمكنه تهديد الملك والملكة في نفس الوقت بسهولة</font></TD>
+</p>
+</TR>
+<TR>
+<TD><button onclick="backMenu()">
+
+Back
+
+</button></TD>
+<TD><button onclick="window.location.href='knight-game.html'">
+
+Try the Knight Game 🎮
+
+</button></TD>
+</TR>
+</table>
+<script>
+
+new Audio("sounds/knight.mp3").play();
+
+
+function backMenu(){
+
+window.location.href="menu.html";
+
+}
+
+</script>
+
+</body>
+
+</html>

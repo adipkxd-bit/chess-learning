@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>pawn Game</title>
+
+<link rel="stylesheet" href="stylee.css">
+
+</head>
+
+
+<body class="gamePage">
+
+<h1>Choose the correct move of the Pawn</h1>
+
+
+<div class="container">
+
+<img src="images/pawn-correct.png" onclick="correct()">
+
+<img src="images/pawn-wrong1.png" onclick="wrong()">
+
+<img src="images/pawn-wrong2.png" onclick="wrong()">
+
+</div>
+
+
+<h2 id="result"></h2>
+
+
+<script>
+
+function correct(){
+
+new Audio("sounds/correct.mp3").play();
+
+document.getElementById("result").innerHTML="Correct answer 🎉";
+
+}
+
+
+function wrong(){
+
+new Audio("sounds/wrong.mp3").play();
+
+document.getElementById("result").innerHTML="Try again ❌";
+
+}
+
+</script>
+
+
+</body>
+
+</html>

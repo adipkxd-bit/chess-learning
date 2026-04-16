@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Chess Learning Website</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="startPage">
+<table width=100%>
+<TR>
+<TD ALIGN=CENTER VALIGN=BOTTOM><h1>Welcome to Chess Learning Website ♟️</h1></TD>
+</TR>
+<TR>
+<TD ALIGN=CENER VALIGN=BOTTOM><p>Click Start to begin learning chess pieces</p></TD>
+</TR>
+<TR>
+<TD ALIGN=CENTER VALIGN=BOTTOM><button onclick="startSite()">
+START
+
+</button></TD>
+</TR>
+</TABLE>
+<script>
+
+function startSite(){
+
+let sound = new Audio("sounds/start.mp3");
+
+sound.play();
+
+setTimeout(()=>{
+
+window.location.href="menu.html";
+
+},800);
+
+}
+
+</script>
+
+</body>
+
+</html>

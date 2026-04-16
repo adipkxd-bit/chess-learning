@@ -1,0 +1,29 @@
+.gamePage{
+
+background-image:url("images/bg4.jpg");
+
+background-size:cover;
+
+text-align:center;
+
+}
+
+
+.container img{
+
+width:150px;
+
+margin:20px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+.container img:hover{
+
+transform:scale(1.2);
+
+}

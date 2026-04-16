@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>King</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="infoPage">
+<table width=100% border=0>
+<TR>
+<TD><h1>King ♔</h1>
+<img src="images/king.png" class="pieceImage">
+<p>
+<font size="5"><i><b>قطعة الملك هي أهم قطعة في لعبة الشطرنج، لأن خسارتها تعني نهاية المباراة</b></i></font><br></TD>
+<TD><font size="7"><B><U>:حركته<U><B></font>
+<UL>
+<LI><font size="6">يتحرك مربعًا واحدًا فقط في أي اتجاه</font>
+<LI><font size="6">حركة خاصة بين الملك والقلعة:التبييت</font>
+<LI><font size="6">يتحرك الملك مربعين باتجاه القلعة</font>
+<LI><font size="6">وتقفز القلعة إلى الجهة الأخرى من الملك</font>
+<LI><font size="6">لا يمكن للملك أن يتحرك إلى مربع مهدد</font></TD>
+</p>
+</TR>
+<TR>
+<TD><button onclick="backMenu()">
+
+Back
+
+</button></TD>
+<TD><button onclick="window.location.href='king-game.html'">
+
+Try the King Game 🎮
+
+</button></TD>
+</TR>
+</table>
+<script>
+
+new Audio("sounds/king.mp3").play();
+
+
+function backMenu(){
+
+window.location.href="menu.html";
+
+}
+
+</script>
+
+</body>
+
+</html>

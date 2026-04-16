@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>pawn</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="infoPage">
+<table width=100% border=0>
+<TR>
+<TD><h1>pawn</h1>
+<img src="images/pawn.png" class="pieceImage">
+
+<p>
+<font size="5"<i><b>قطعة البيدق (الجندي) هي أصغر وأبسط قطعة في لعبة الشطرنج، لكنها تلعب دورًا مهمًا جدًا</b></i></font></TD>
+<TD><font size="7"><B><U>:حركته<U><B></font>
+<UL>
+<LI><font size="6">يتحرك مربعًا واحدًا للأمام فقط</font>
+<LI><font size="6">لا يمكنه التحرك للخلف أبدًا</font>
+<LI><font size="6">لا يستطيع الأكل بشكل مستقيم للأمام</font></TD>
+</p>
+</TR>
+<TR>
+<TD><button onclick="backMenu()">
+
+Back
+
+</button></TD>
+<TD><button onclick="window.location.href='pawn-game.html'">
+
+Try the pawn Game 🎮
+
+</button></TD>
+</TR>
+
+</table>
+<script>
+
+new Audio("sounds/pawn.mp3").play();
+
+
+function backMenu(){
+
+window.location.href="menu.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
